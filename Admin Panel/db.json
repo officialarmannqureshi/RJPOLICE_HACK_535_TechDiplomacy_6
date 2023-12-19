@@ -1,0 +1,119 @@
+{
+  "cctvs": [
+    {
+      "id": 1,
+      "OwnerID": 1,
+      "Owner Name": "John Doe",
+      "Contact Information": "john.doe@example.com",
+      "Camera Type": "Private",
+      "Location": {
+        "Address": "123 Main Street",
+        "Latitude": 40.7128,
+        "Longitude": -74.0060
+      },
+      "Consent Status": "Granted",
+      "License Status": "Valid",
+      "GeotagID": 101,
+      "CameraID": 201,
+      "Status": "Functioning",
+      "License Expiry Date": "2024-12-31"
+    },
+    {
+      "id": 2,
+      "OwnerID": 2,
+      "Owner Name": "Alice Johnson",
+      "Contact Information": "alice.johnson@example.com",
+      "Camera Type": "Public",
+      "Location": {
+        "Address": "789 Elm Avenue",
+        "Latitude": 34.0522,
+        "Longitude": -118.2437
+      },
+      "Consent Status": "Not Applicable",
+      "License Status": "Valid",
+      "GeotagID": 102,
+      "CameraID": 202,
+      "Status": "Functioning",
+      "License Expiry Date": "2023-11-30"
+    },
+    {
+      "id": 3,
+      "OwnerID": 3,
+      "Owner Name": "Bob Smith",
+      "Contact Information": "bob.smith@example.com",
+      "Camera Type": "Private",
+      "Location": {
+        "Address": "456 Oak Lane",
+        "Latitude": 41.8781,
+        "Longitude": -87.6298
+      },
+      "Consent Status": "Granted",
+      "License Status": "Expired",
+      "GeotagID": 103,
+      "CameraID": 203,
+      "Status": "Non-functioning",
+      "License Expiry Date": "2022-08-15"
+    },
+    {
+      "id": 4,
+      "OwnerID": 4,
+      "Owner Name": "Eva Anderson",
+      "Contact Information": "eva.anderson@example.com",
+      "Camera Type": "Public",
+      "Location": {
+        "Address": "567 Pine Road",
+        "Latitude": 37.7749,
+        "Longitude": -122.4194
+      },
+      "Consent Status": "Not Applicable",
+      "License Status": "Valid",
+      "GeotagID": 104,
+      "CameraID": 204,
+      "Status": "Functioning",
+      "License Expiry Date": "2023-10-20"
+    },
+    {
+      "id": 5,
+      "OwnerID": 5,
+      "Owner Name": "Chris Brown",
+      "Contact Information": "chris.brown@example.com",
+      "Camera Type": "Private",
+      "Location": {
+        "Address": "890 Maple Street",
+        "Latitude": 45.5051,
+        "Longitude": -122.6750
+      },
+      "Consent Status": "Granted",
+      "License Status": "Valid",
+      "GeotagID": 105,
+      "CameraID": 205,
+      "Status": "Functioning",
+      "License Expiry Date": "2024-09-15"
+    },
+    {
+      "id": 6,
+      "OwnerID": 6,
+      "Owner Name": "Sophia Miller",
+      "Contact Information": "sophia.miller@example.com",
+      "Camera Type": "Public",
+      "Location": {
+        "Address": "234 Birch Avenue",
+        "Latitude": 40.7128,
+        "Longitude": -74.0060
+      },
+      "Consent Status": "Not Applicable",
+      "License Status": "Valid",
+      "GeotagID": 106,
+      "CameraID": 206,
+      "Status": "Functioning",
+      "License Expiry Date": "2023-12-31"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Nazim Qureshi",
+      "email": "info.nazimqureshi@gmail.com"
+    }
+  ]
+}
