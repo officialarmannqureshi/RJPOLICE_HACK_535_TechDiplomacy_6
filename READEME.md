@@ -2,9 +2,10 @@
 
 ## User side
 
-For ease of use, We will be building an Android Application for the user side. They can quickly download an application and fill up all the required details for the Geo Tagging of their CCTV Cameras.
+For ease of use, We will be building a Mobile Application for the user side. They can quickly download an application and fill up all the required details for the Geo Tagging of their CCTV Cameras.
 
-Android Application : [DrishtiRakshak](./DrishtiRakshak/)
+Mobile Application : [DrishtiRakshak](./DrishtiRakshak/)
+(Available for both Android and iOS) - Built using React Native
 
 ## Police Administration side
 
