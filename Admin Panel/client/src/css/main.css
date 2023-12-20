@@ -1,6 +1,12 @@
 /* Operator Show */
 
-.css-g826q3-RaSimpleShowLayout-root{
-        
+.view-camera{
+    position:absolute;
+    top:5rem;
+    right:2rem;
     
+}
+.filterview{
+    margin-top:0rem;
+    width:200px;
 }
