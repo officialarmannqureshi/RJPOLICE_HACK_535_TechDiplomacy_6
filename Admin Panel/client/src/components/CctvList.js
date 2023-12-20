@@ -1,9 +1,11 @@
 import React from 'react'
-import { List, Datagrid, TextField ,ShowButton} from 'react-admin'
+import { List, Datagrid, TextField, ShowButton } from 'react-admin'
+import { FilterSidebar } from './FilterSidebar';
 
 const CctvList = (props) => {
     return (
-        <List {... props}>
+        <List {...props} aside={<FilterSidebar />}>
+            
             <Datagrid>
                 <TextField label="Owner ID" source="OwnerID" />
                 <TextField label="Owner Name" source="Owner Name" />
