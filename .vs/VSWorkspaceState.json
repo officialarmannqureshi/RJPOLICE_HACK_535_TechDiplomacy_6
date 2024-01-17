@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Admin Panel",
+    "\\Admin Panel\\client",
+    "\\Admin Panel\\client\\src",
+    "\\Admin Panel\\client\\src\\components"
   ],
-  "SelectedNode": "\\C:\\Users\\KIIT\\Source\\Repos\\RJPOLICE_HACK_535_TechDiplomacy_6",
   "PreviewInSolutionExplorer": false
 }
