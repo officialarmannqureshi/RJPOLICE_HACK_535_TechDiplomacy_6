@@ -13,10 +13,11 @@
       },
       "Consent Status": "Granted",
       "License Status": "Valid",
-      "GeotagID": 101,
+
       "CameraID": 201,
       "Status": "Functioning",
       "License Expiry Date": "2024-12-31"
+
     },
     {
       "id": 2,
@@ -29,9 +30,8 @@
         "Latitude": 34.0522,
         "Longitude": -118.2437
       },
-      "Consent Status": "Not Applicable",
       "License Status": "Valid",
-      "GeotagID": 102,
+
       "CameraID": 202,
       "Status": "Functioning",
       "License Expiry Date": "2023-11-30"
@@ -49,7 +49,6 @@
       },
       "Consent Status": "Granted",
       "License Status": "Expired",
-      "GeotagID": 103,
       "CameraID": 203,
       "Status": "Non-functioning",
       "License Expiry Date": "2022-08-15"
@@ -67,7 +66,7 @@
       },
       "Consent Status": "Not Applicable",
       "License Status": "Valid",
-      "GeotagID": 104,
+
       "CameraID": 204,
       "Status": "Functioning",
       "License Expiry Date": "2023-10-20"
@@ -85,7 +84,6 @@
       },
       "Consent Status": "Granted",
       "License Status": "Valid",
-      "GeotagID": 105,
       "CameraID": 205,
       "Status": "Functioning",
       "License Expiry Date": "2024-09-15"
@@ -103,7 +101,7 @@
       },
       "Consent Status": "Not Applicable",
       "License Status": "Valid",
-      "GeotagID": 106,
+
       "CameraID": 206,
       "Status": "Functioning",
       "License Expiry Date": "2023-12-31"
@@ -112,7 +110,7 @@
   "users": [
     {
       "id": "1",
-      "name": "Nazim Qureshi",
+      "name": "admin",
       "email": "info.nazimqureshi@gmail.com"
     }
   ]
