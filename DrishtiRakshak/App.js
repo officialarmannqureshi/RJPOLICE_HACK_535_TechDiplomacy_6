@@ -1,4 +1,5 @@
 import React from "react";
+
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import Login from "./screens/Login";
@@ -6,6 +7,10 @@ import Signup from "./screens/Signup";
 import CameraListScreen from "./screens/CameraListScreen";
 import CameraDetails from "./screens/CameraDetails";
 import AddNewDevice from "./screens/AddNewDevice";
+import MapLocation from "./screens/MapLocation";
+
+
+
 
 const Stack = createNativeStackNavigator();
 
@@ -37,6 +42,12 @@ const App = () => {
           name="AddNewDevice"
           component={AddNewDevice}
           options={{ title: "Adding New Device" }}
+        />
+        
+        <Stack.Screen
+          name="MapLocation"
+          component={MapLocation}
+          options={{ title: "MapLocation" }}
         />
       </Stack.Navigator>
     </NavigationContainer>
