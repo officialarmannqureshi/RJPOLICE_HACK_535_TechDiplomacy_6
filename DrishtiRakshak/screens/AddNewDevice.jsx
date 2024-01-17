@@ -2,40 +2,75 @@ import React, { useState } from 'react';
 import { View, TextInput, Button, StyleSheet } from 'react-native';
 
 const AddNewDevice = () => {
-  const [deviceName, setDeviceName] = useState('');
-  const [deviceLocation, setDeviceLocation] = useState('');
-
+  const [deviceId, setDeviceId] = useState('');
+  const [ownerId, setOwnerId] = useState('');
+  const [ownerName, setOwnerName] = useState('');
+  const [contactEmail, setContactEmail] = useState('');
+  const [latitude, setLatitude] = useState('');
+  const [longitude, setLongitude] = useState('');
+  const [cameraIp, setCameraIp] = useState('');
+  const [cameraName, setCameraName] = useState('');
   const handleSubmit = () => {
     // Handle the form submission here
-    console.log('Device Name: ', deviceName);
-    console.log('Device Location: ', deviceLocation);
+    console.log('Device Id: ', deviceId);
+    console.log('ownerId: ', ownerId);
+    console.log('ownerName: ', ownerName);
+    console.log('contactEmail: ', contactEmail);
+    console.log('latitude: ', latitude);
+    console.log('longitude: ', longitude);
+    console.log('cameraIp: ', cameraIp);
+    console.log('cameraName: ', cameraName);
   };
 
   return (
     <View style={styles.container}>
-      <TextInput
+  <TextInput
         style={styles.input}
-        placeholder="Device Name"
-        value={deviceName}
-        onChangeText={setDeviceName}
+        placeholder="device ID"
+        value={deviceId}
+        onChangeText={(text) => setDeviceId(text)}
       />
       <TextInput
         style={styles.input}
-        placeholder="Hardware ID"
-        value={deviceLocation}
-        onChangeText={setDeviceLocation}
+        placeholder="owner ID"
+        value={ownerId}
+        onChangeText={setOwnerId}
       />
       <TextInput
         style={styles.input}
-        placeholder="Lattitude"
-        value={deviceLocation}
-        onChangeText={setDeviceLocation}
+        placeholder="Ownwer name "
+        value={ownerName}
+        onChangeText={setOwnerName}
       />
       <TextInput
         style={styles.input}
-        placeholder="Longitude"
-        value={deviceName}
-        onChangeText={setDeviceName}
+        placeholder="contact email"
+        value={contactEmail}
+        onChangeText={setContactEmail}
+      />
+      <TextInput
+        style={styles.input}
+        placeholder="latitude"
+        value={latitude}
+        onChangeText={setLatitude}
+      />
+      <TextInput
+        style={styles.input}
+        placeholder="longitude"
+        value={longitude}
+        onChangeText={setLongitude}
+      />
+      <TextInput
+        style={styles.input}
+        placeholder="camera Ip"
+        value={cameraIp}
+        onChangeText={setCameraIp}
+      />
+      <TextInput
+        style={styles.input}
+        placeholder="camera name"
+        value={cameraName}
+        onChangeText={setCameraName}
       />
       <Button title="Submit" onPress={handleSubmit} />
     </View>

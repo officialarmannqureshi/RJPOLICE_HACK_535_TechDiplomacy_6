@@ -25,7 +25,7 @@ const CameraListScreen = () => {
       id: "2",
       image: require("../assets/cctv-private.png"),
       name: "House",
-      location: "Nahargarh Palace",
+      location: "ghaziabad",
       date: "2023-09-14",
       time: "15:15:00",
     },
